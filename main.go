@@ -35,5 +35,5 @@ func main() {
 	router.PATCH("/task/:id", handler.UpdateTask)
 	router.DELETE("/task/:id", handler.DeleteTask)
 
-	router.Run("localhost:8080")
+	router.Run(":8080")
 }
