@@ -23,7 +23,7 @@ func main() {
 	router := gin.Default()
 
 	config := cors.DefaultConfig()
-	config.AllowOrigins = []string{"https://thunderous-kringle-8a9eb1.netlify.app/"}
+	config.AllowOrigins = []string{"https://thunderous-kringle-8a9eb1.netlify.app"}
 	config.AllowMethods = []string{"GET", "POST", "PUT", "PATCH", "DELETE"}
 	config.AllowHeaders = []string{"Origin", "Content-Type", "Accept", "X-Requested-With", "Content-Length"}
 	config.AllowCredentials = true
